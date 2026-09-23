@@ -1,0 +1,7 @@
+Inside loginPage fixture
+Inside dashboardPage fixture
+****** type performed with value: admin@email.com*******
+****** type performed with value: admin@123*******
+****** click performed with value: getByText('Sign in', { exact: true })*******
+****** click performed with value: getByAltText('menu')*******
+****** click performed with value: getByText('Sign out', { exact: true })*******
