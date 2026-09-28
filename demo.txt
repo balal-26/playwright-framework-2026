@@ -1,1 +1,2 @@
 This is demo file for text to check merge conflict
+This is added new line by playwright locally
