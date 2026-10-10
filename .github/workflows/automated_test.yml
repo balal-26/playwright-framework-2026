@@ -5,9 +5,22 @@ on: push
 
 
 jobs:
- Sample:
+ SampleLinux:
    runs-on: ubuntu-latest
    steps:
-     - run: echo "Hello From Github Actions"
+     - run: echo "Hello From Github Actions In Linux"
+
+
+ SampleMAC:
+   runs-on: macos-latest
+   steps:
+     - run: echo "Hello From Github Actions In MAC"
+
+
+ SampleWindows:
+   runs-on: windows-latest
+   steps:
+     - run: echo "Hello From Github Actions In Windows Machine"
+
 
 
