@@ -1,0 +1,13 @@
+name: Playwright All Test
+
+
+on: push
+
+
+jobs:
+ Sample:
+   runs-on: ubuntu-latest
+   steps:
+     - run: echo "Hello From Github Actions"
+
+
